@@ -69,6 +69,10 @@ nav {
 .privatter-card h1,
 .privatter-card h2,
 .privatter-card h3 {
+  color: #f7f3ec !important;
+  font-weight: 600;
+}
+
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
