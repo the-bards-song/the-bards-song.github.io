@@ -54,28 +54,28 @@ nav {
   text-decoration: underline;
 }
 
-/* privatter+ ベースのカード */
+/* privatter+ カードの読みやすさ改善 */
 .privatter-card {
   background-color: #2c313d;
-  color: #e6decf;
+  color: #f0eae0; /* 少し明るくして読みやすく */
   border-radius: 12px;
-  padding: 16px;
-  line-height: 1.8;
+  padding: 24px; /* 余白を増やす */
+  line-height: 1.95; /* 行間を広げる */
   font-family: 'Shippori Mincho', 'EB Garamond', serif;
+  font-size: 1.05em; /* 文字を少し大きく */
   box-shadow: 0 0 12px rgba(0,0,0,0.3);
 }
 
-/* 見出し（カード内） */
+/* カード内の見出しを読みやすく */
 .privatter-card h1,
 .privatter-card h2,
 .privatter-card h3 {
-  color: #f7f3ec !important;
-  font-weight: 600;
-}
-
+  color: #f7f3ec; /* 見出しはさらに明るく */
+  font-weight: 600; /* 太め */
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
+
 
 /* 区切り記号（⁂など） */
 .separator {
