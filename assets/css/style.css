@@ -76,6 +76,15 @@ nav {
   margin-bottom: 0.5em;
 }
 
+/* privatter+ カード内のリンクを読みやすく */
+.privatter-card a {
+  color: #d8cfff; /* 明るい紫系、背景と相性が良い */
+  text-decoration: none;
+}
+
+.privatter-card a:hover {
+  text-decoration: underline;
+}
 
 /* 区切り記号（⁂など） */
 .separator {
@@ -96,4 +105,11 @@ details summary {
   cursor: pointer;
   color: #c9a7e8;
   font-weight: bold;
+}
+
+footer p {
+  font-size: 0.75em;   /* 小さく */
+  color: #aaa;         /* 控えめなグレー */
+  margin-top: 40px;
+  text-align: center;
 }
