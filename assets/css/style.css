@@ -53,3 +53,43 @@ nav {
 .menu li a:hover {
   text-decoration: underline;
 }
+
+/* privatter+ ベースのカード */
+.privatter-card {
+  background-color: #2c313d;
+  color: #e6decf;
+  border-radius: 12px;
+  padding: 16px;
+  line-height: 1.8;
+  font-family: 'Shippori Mincho', 'EB Garamond', serif;
+  box-shadow: 0 0 12px rgba(0,0,0,0.3);
+}
+
+/* 見出し（カード内） */
+.privatter-card h1,
+.privatter-card h2,
+.privatter-card h3 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* 区切り記号（⁂など） */
+.separator {
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+/* 下部の詩的テキスト */
+.privatter-quote {
+  text-align: center;
+  font-style: italic;
+  color: #c9a7e8;
+  margin-top: 1em;
+}
+
+/* details（禁止事項） */
+details summary {
+  cursor: pointer;
+  color: #c9a7e8;
+  font-weight: bold;
+}
