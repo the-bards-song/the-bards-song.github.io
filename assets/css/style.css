@@ -1,1 +1,33 @@
 
+/* 全体の余白とフォント */
+body {
+  font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
+  line-height: 1.8;
+  margin: 40px auto;
+  max-width: 700px;
+  padding: 0 20px;
+  color: #333;
+}
+
+/* 見出し */
+h1, h2, h3 {
+  font-weight: 600;
+  color: #222;
+}
+
+/* リンク */
+a {
+  color: #4466aa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* パスワードヒント */
+.hint {
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 10px;
+}
