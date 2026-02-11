@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>HM（パスワード保護）</title>
+<script>
+function checkPassword() {
+  const pass = document.getElementById("pass").value;
+  if (pass === "rps801") {
+    window.location.href = "home.html";
+  } else {
+    alert("パスワードが違います");
+  }
+}
+</script>
+</head>
+<body>
+<h1>HM（パスワード保護）</h1>
+<p>パスワードを入力してください。</p>
+
+<input type="password" id="pass">
+<button onclick="checkPassword()">Enter</button>
+
+<p class="hint">ヒント：英字数字</p>
+
+</body>
+</html>
